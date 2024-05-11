@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.telalogin{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 2px black solid;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(100, 20, 247) 0%, rgb(107, 2, 148) 35%, rgb(0, 110, 255) 100%);
+}
+img{
+    width: 100%;
+}
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 100%;
+    padding: 16px;
+    height: 35px;
+    border: 2px black solid;
+    
+}
+#btn{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    transition: 0.3s;
+    
+}
+#btn:hover{
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+    background-color: rgba(0, 255, 0, 0);
+}
